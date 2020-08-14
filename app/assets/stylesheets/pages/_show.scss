@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.img-cocktail img{
+  background-size: cover;
+  background-position: center;
+  image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}

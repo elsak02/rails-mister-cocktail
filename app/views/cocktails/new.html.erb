@@ -4,12 +4,14 @@
 </div>
 
 <div class="background text-center pt-5">
-  <div class="form-control-plaintext mt-5">
-    <%= simple_form_for (@cocktail) do |f| %>
-    <%= f.label :name, class: "text-white" %>
-    <%= f.text_field :name %>
-    <%= f.submit "Add cocktail" %>
-    <% end %>
+ <div class="row justify-content-center">
+    <div class="col-12 col-lg-6">
+      <%= simple_form_for (@cocktail) do |f| %>
+      <%= f.label :name, class: "text-white" %>
+      <%= f.text_field :name %>
+      <%= f.input :photo, as: :file , class: "text-white"%>
+      <%= f.submit "Add cocktail" %>
+      <% end %>
+    </div>
   </div>
 </div>
-
